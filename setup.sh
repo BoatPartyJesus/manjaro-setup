@@ -2,7 +2,7 @@
 
 echo "Setting up environment"
 zsh environment/yay.sh
-zsh environment/git.sh
+# zsh environment/git.sh
 zsh environment/asdf.sh
 
 echo "Installing yay packages"
@@ -12,6 +12,7 @@ zsh packages/yau/micro.sh
 zsh packages/yay/spotify.sh
 zsh packages/yay/vscode.sh
 zsh packages/yay/steam.sh
+zsh packages/yay/micro.sh
 
 echo "Installing asdf packages"
 zsh packages/asdf/adr.sh
